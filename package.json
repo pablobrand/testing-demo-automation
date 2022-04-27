@@ -1,0 +1,18 @@
+{
+  "name": "test-demo",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "e2e": "cypress run --record --key ff19011a-8e34-42d3-bdce-111e7b60755f"
+  },
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "cypress": "^9.6.0",
+    "mocha": "^9.2.2",
+    "request": "^2.88.2",
+    "vite": "^2.9.5"
+  }
+}
